@@ -4,6 +4,8 @@
 --themecolor: #fcba03;
 --themecolortrans: #fcba037e;
 
+
+
 --textcolor: #f1f0eb;
 --textinputecol: #ced0d3;
 
@@ -180,7 +182,7 @@ header{
     align-items: center;
     padding: 10px;
     background-color: var(--holdercoltrans);
-    border-radius: 10px;
+    border-radius: 5px;
 
     margin-left: 0px;
 
@@ -203,7 +205,7 @@ header{
 .holder {
     background-color: var(--holdercolor);
     
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 20px;
     margin: 10px;
 }
