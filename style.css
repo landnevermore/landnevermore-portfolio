@@ -4,7 +4,7 @@
 --themecolor: #fcba03;
 --themecolortrans: #fcba037e;
 
-
+--trans: #ffffff00;
 
 --textcolor: #f1f0eb;
 --textinputecol: #ced0d3;
@@ -101,7 +101,7 @@ textarea {
 
 textarea:focus {
     outline: none;
-    border-color:#06080800;
+    border-color:var(--trans);
     border-bottom: 2px solid var(--themecolor);
     border-radius: 10px;
     padding: 10px;
@@ -183,6 +183,9 @@ header{
     padding: 10px;
     background-color: var(--holdercoltrans);
     border-radius: 5px;
+    border-bottom: 2px solid #fcba03;
+    
+
 
     margin-left: 0px;
 
@@ -302,8 +305,8 @@ card-footer{
 
 }
 
-.card-button{
-    /* margin-top: auto; */
+/* .card-button{
+    margin-top: auto;
     font-size: 1.0rem;
     margin-top: 10px;
     background-color: var(--holdercoltrans);
@@ -323,24 +326,29 @@ card-footer{
     color: var(--black);
     transition: 0.5s;
     cursor: pointer;
-}
+} */
 
 .card-redirect{
-    margin-top: auto;
+    margin:auto;
     font-size: 1.0rem;
-    margin-top: 10px;
     border-radius: 5px;
     padding: 10px;
+    margin-bottom: 2px;
+    margin-top: 10px;
 
-    text-decoration: none;
-    border-bottom: #f1f0eb00;
-    border-bottom: var(--themecolor);
+    border-color: #f1f0eb00;
+
+    border-bottom: 2px solid var(--themecolor);
+    border-radius: 5px; 
+    background-color: var(--holdercoltrans);
+    
 }
 
 .card-redirect:hover{
-    color: var(--black);
     transition: 0.5s;
     cursor: pointer;
+
+    background-color: var(--themecolortrans);
 }
 
 /* ---------------------------------------------- */
@@ -441,3 +449,12 @@ footer {
     /* height: 0.9rem; */
 
 }
+
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* ---------------------------------------------- */
